@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -7,7 +7,7 @@ let package = Package(
 		.library(name: "CwlPreconditionTesting", type: .dynamic, targets: ["CwlPreconditionTesting", "CwlMachBadInstructionHandler"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/mattgallagher/CwlCatchException.git", from: "1.2.0")
+		.package(url: "https://github.com/iwooltd/CwlCatchException.git", from: "1.2.0")
 	],
 	targets: [
 		.target(
